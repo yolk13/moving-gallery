@@ -1,0 +1,38 @@
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  overflow-x: hidden;
+  background: #0a0a0a;
+  color: #e0e0e0;
+  font-family: 'Inter', sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  height: 1300vh;
+}
+
+#gallery-canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  display: block;
+}
+
+#progress {
+  position: fixed;
+  bottom: 32px;
+  right: 32px;
+  font-family: 'Instrument Serif', serif;
+  font-size: 15px;
+  color: rgba(212, 168, 83, 0.6);
+  letter-spacing: 0.05em;
+  z-index: 10;
+  pointer-events: none;
+}

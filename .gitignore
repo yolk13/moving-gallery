@@ -1,0 +1,4 @@
+node_modules/
+dist/
+.lobehub-market/
+*.theatre-project-state.json
